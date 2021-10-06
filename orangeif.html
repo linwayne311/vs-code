@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>orange if</h2>
+
+
+    <script>
+    var orange="20"
+    var weight="24"
+    var price;
+    price = orange*weight;
+    
+    document.write("購買橘子一斤的價格:",orange,"<br>")
+    document.write("您購買了幾斤: ",weight,"<br>")
+    document.write("總金額: ",price,"<br>")
+
+    if(price>=500){
+        document.write("恭喜您~本次消費金額達500以上故打九折<br>")
+    }
+    else{
+        document.write("很遺憾~因您本次消費未滿500故無此次優惠<br>")
+    }
+    </script>
+
+    <h2>orange if2</h2>
+
+    <script>
+    var orange="20"
+    var weight="50"
+    var price;
+    price = orange*weight;
+    
+    document.write("購買橘子一斤的價格:",orange,"<br>")
+    document.write("您購買了幾斤: ",weight,"<br>")
+    document.write("總金額: ",price,"<br>")
+    if(price>=1000){
+        document.write("恭喜您~本次消費金額達1000以上故打七折<br>")
+    }
+  
+    else if(price>=500){
+        document.write("恭喜您~本次消費金額達500以上故打九折<br>")
+    }
+
+    else {
+        document.write("很遺憾~因您本次消費未滿500故無此次優惠<br>")
+    
+    }
+    </script>
+
+
+    <h2>orange if3</h2>
+  
+    <script>
+    var lowType="2";
+    var weight="41"
+    var price="20"
+    total=weight*price
+    
+    switch(lowType){
+        case"1":
+        total=weight*price
+        break;
+    
+        case"2":
+        total=weight*price
+        break;
+
+        case"3":
+        total=weight*price
+        break;
+
+        default:
+        total=0;
+    
+
+    }
+
+    document.write("總金額:",total,"<br>");
+
+
+
+
+
+    </script>
+
+
+
+
+</body>
+</html>

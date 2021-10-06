@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h2>作業07</h2>
+
+<script>
+
+var total=0;
+for(var i=1;i<=20;i=i+1)
+      {
+          document.write(i,"<br>");
+          total=total+i;
+      }
+      document.write("total:",total,"<br>")
+
+
+
+      var total=0;
+for(var i=2;i<=20;i=i+2)
+      {
+          document.write(i,"<br>");
+          total=total+i;
+      }
+      document.write("total:",total,"<br>")
+
+
+      var total=0;
+for(var i=1;i<=20;i=i+2)
+      {
+          document.write(i,"<br>");
+          total=total+i;
+      }
+      document.write("total:",total,"<br>")
+
+</script>
+
+<h2>作業8</h2>
+<script>
+var total=0;
+var count=0;
+var result=0;
+
+
+while (count<10) {
+   result = parseInt(Math.random()*11)*100;
+   total=result+total;
+   document.write("此次抽獎金額:",result,"<br>");
+   count++;
+}
+
+document.write("total:",total,"<br>")
+
+
+
+
+</script>
+
+<h2>作業9</h2>
+<script>
+  
+  var money = 0
+        var total = 0
+        for(var time = 1; time <= 1000; time++){
+            money = parseInt(Math.random()*11) *100
+            total = total + money
+            document.write("第", time , "次摸彩金額: " , money , "元","<br>")
+            if(money == 0){
+                break;
+                }
+        }
+        document.write("總彩金: ", total , "元","<br>")
+    
+    
+    
+    
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script type="text/javascript">
+    document.title="偉恩的快樂天空";
+    document.write("現在時刻 : 11:43:00");
+    
+    
+    </script>
+  
+    
+
+    <a href="javascript:window.alert('Hello world')">問候</a>
+    </script>
+
+    <h2>boolean</h2>
+    <script>
+        document.write(true,"<br>");
+        document.write(false,"<br>");
+
+</script>
+
+<h2>undefined</h2>
+<script>
+var a;
+a=10;
+
+var b=20;
+
+var c;
+
+document.write("a:",a,"<br>");
+document.write("b:",b,"<br>");
+document.write("c:",c,"<br>");
+
+</script>
+
+<h2>算術</h2>
+<script>
+document.write("14*2:",14*2,"<br>"); //28
+document.write("14/2:",14/2,"<br>");//7
+document.write("14%2:",14%2,"<br>");//0
+</script>
+
+<h2>字串</h2>
+<script>
+var zone="中壢區"
+var road="復興路46號"
+var address;
+address = zone + road;//中壢區復興路46號
+document.write("address:",address,"<br>")
+
+</script>
+
+<h2>強制轉型 較安全的作法</h2>
+<script>
+var price=parseInt("20");
+var quantity=parseInt("30");
+var ship=parseInt("80");
+
+var subTotal=price * quantity;
+var total=subTotal + ship;
+
+</script>
+
+<h2>parseInt()</h2>
+
+<script>
+var x ="3.12"
+document.write("x:",x,"<br>");
+document.write("parseInt(x):",parseInt(x),"<br>");
+document.write("parseFloat(x):",parseFloat(x),"<br>");
+</script>
+</body>
+</html>

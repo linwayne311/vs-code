@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h2>建立陣列</h2>
+<script>
+var arr = new Array(11,22,33);//物件的參考位置
+for(let i = 0; i<=3; i++) {
+    document.write("arr[i]:",arr[i],"<br>")
+}
+</script>  
+
+<h2>length</h2>
+<script>
+    var arr = new Array(11,22,33);//物件的參考位置
+    for(let i = 0; i<arr.length; i++) {
+        document.write("arr[i]:",arr[i],"<br>")
+    }
+    </script>  
+    
+
+
+
+<h2>其內的資料可以是不同的型別</h2>
+<script>
+var arr = new Array(11,true,"This is a book");
+for(var i = 0;i < arr.length;i++){
+    document.write("arr[i]:",arr[i],"<br>");
+}
+
+</script>
+
+<h2>將陣列中的資料串接字串-自己做</h2>
+
+<script>
+var arr=new Array(11,22,33);
+var str="";
+for(let i=0; i<arr.length-1;i++){
+    str=str+arr[i] + ",";
+}
+str=str+arr[arr.length-1];
+document.write(str,"<br>")
+</script>
+
+<h2>將陣列中的資料串接成字串-使用陣列toString()</h2>
+<script>
+var arr=new Array(11,22,33);
+var str="";
+str=arr.toString();
+document.write(str,"<br>");
+</script>
+
+
+<h2>將陣列中的資料串接成字串-使用自動呼叫toString()</h2>
+
+<script>
+var arr=new Array(11,22,33);
+document.write(arr,"<br>");
+
+</script>
+
+<h2>將新資料放到陣列最後面--自己做</h2>
+<script>
+var arr=new Array(11,22,33);
+arr[arr.length]=100;
+arr[arr.length]=200;
+document.write(arr,"<br>");
+</script>
+
+
+<h2>將新資料放到陣列最後面--使用陣列push()</h2>
+<script>
+var arr=new Array(11,22,33);
+arr.push(100);
+arr.push(200);
+document.write(arr,"<br>");
+</script>
+
+
+
+
+<h2>將新資料(100)insert到陣列中特定位置(3)--自己做</h2>
+<script>
+var arr=new Array(11,22,33,44,55,66,77);
+for(var i=arr.length-1;i>=3;i--){
+arr[i+1]=arr[i]
+}
+arr[3]=100;
+document.write(arr,"<br>");
+</script>
+
+<h2>splice(start,n,data1,data2...)-1</h2>
+
+<script>
+var arr=new Array(11,22,33,44,55,66,77,88,99);
+var arr2=arr.splice(3,5,100,200);
+
+document.write(arr,"<br>");
+document.write(arr2,"<br>");
+
+</script>
+
+
+<h2>splice(start,n,data1,data2...)-2</h2>
+
+<script>
+var arr=new Array(11,22,33,44,55,66,77,88,99);
+var arr2=arr.splice(3,0,100,200);
+
+document.write(arr,"<br>");
+document.write(arr2,"<br>");
+
+</script>
+
+<h2>將陣列中資料串接成字串--join()</h2>
+<script>
+var arr=new Array(11,22,33);
+var str="";
+str=arr.join("@@");
+document.write(str,"<br>");
+</script>
+
+<h2>concat()</h2>
+<script>
+    var arr=new Array(11,22,33);
+    var arr2=new Array(55,66,77);
+    
+</script>
+</body>
+</html>

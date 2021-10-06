@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        [class*="col-"]{
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+.col-1{width: calc(100% / 3 * 1);}
+.col-2{width: calc(100% / 3 * 1);}
+.col-3{width: calc(100% / 3 * 1);}
+    .container{
+        margin: auto;
+        display: flex;
+        flex-wrap:wrap
+    }
+    .item{
+        width: calc(100% / 3 - 15px - 15px);
+        margin: 15px;
+        background-color: #fa0;
+    }
+    @media screen and (min-width:768px){
+        .item{
+            width: calc(100% / 3 - 15px - 15px);
+        }
+
+    }
+        
+    
+
+
+
+
+    </style>
+</head>
+<body>
+<div class="container">
+<div class="col-1">
+<div class="item">
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad rerum quibusdam nulla similique, vel cupiditate expedita repellendus aut unde sit recusandae facilis voluptas quis laudantium natus laborum aperiam dolorem provident! 
+</div>
+</div>
+
+<div class="col-2">
+<div class="item">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad rerum quibusdam nulla similique, vel cupiditate expedita repellendus aut unde sit recusandae facilis voluptas quis laudantium natus laborum aperiam dolorem provident! 
+    </div>
+    </div>
+
+    <div class="col-3">
+    <div class="item">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad rerum quibusdam nulla similique, vel cupiditate expedita repellendus aut unde sit recusandae facilis voluptas quis laudantium natus laborum aperiam dolorem provident! 
+        </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+</div>
+</body>
+</html>

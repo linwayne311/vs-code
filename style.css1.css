@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0; 
+}
+
+.logo{
+    padding-top: 30px;
+}
+.header{
+    display: flex;
+    border: 1px solid black;
+    width: auto;
+    
+    
+}
+
+.header_person{
+    display: flex;
+    flex: row;
+    justify-content: flex-end;
+    padding: 0 0 0 200px;
+    
+
+}
+
+.nav{
+    display: flex;
+    width: auto;
+}
+.nav_title{
+display: flex;
+list-style: none;
+padding-top: 40px;
+
+}
+
+
+.nav_txt{
+display: flex;
+padding-top: 30px;
+}
+
+
+
+.sidemenu{
+    margin-left: 10%;
+    padding: 80px 0 80px 0;
+}
+
+
+.my{
+    color: blue;
+}
+
+
+.sidemenu-bar{
+
+padding: 10px 10px 10px 10px;
+}
+.sidemenu-txt{
+    display: flex;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: cornsilk;
+}
+
+.item_txt{
+    text-align: center;
+}
+
+
+.sidemenual{
+text-align: center;   
+padding-top: 200px;
+background-color: cornsilk;
+font-size: larger;
+}
+
+.sidemenual_title{
+text-align: center;
+
+}
+
+.sidemenual_work{
+margin-left: 42%;
+display: flex;
+padding: 50px 0 50px 0;
+   
+}
+
+.footer{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.column{
+width: 300px;
+border: 1px solid black;
+}
+
+
+
+
+
+
+.column_class{
+    color: cornflowerblue;
+    text-align: left;
+    font-size: smaller;
+}
+
+.column_title{
+    text-align: left;
+    font-size: smaller;
+}
+
+
+.column_time{
+    text-align: left;
+    font-size: smaller;
+}
+
+.column_bird{
+    display: flex;
+    margin-left: 40%;
+    font-size: smaller;
+    border: 1px solid darkorange;
+    font-size: smaller;
+}
+
+.column_sale{
+    background-color: darkorange;
+    color: white;
+    font-size: smaller;
+}
+
+.column_day{
+
+    font-size: smaller;
+    margin-left: 15%;
+}
+
+
+.column_viewer{
+display: flex;
+
+}
+
+.column_person{
+    font-size: smaller;
+}
+
+.column_price{
+    margin-left: 40%;
+    font-size: 20px;
+    color: cornflowerblue;
+}
+
+.column_bottom{
+    display: flex;
+    
+}
+
+.column_nav1{
+display: flex;
+margin-left: 5%;
+}
+
+.column_nav2{
+    display: flex;
+    margin-left: 18%;
+}
+  
+.column_nav3{
+    display: flex;
+    margin-left: 19%;
+}
+
+.column_nav4{
+    display: flex;
+    margin-left: 19%;
+}

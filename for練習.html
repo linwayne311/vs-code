@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>練習二 請問1加到10的總和為多少?</h2>
+
+    <script>
+        var total=0;
+        for(var i=1;i<=10;i++){
+            total=total+i;
+        }
+
+        document.write("total:",total,"<br>");
+    </script>
+
+    <h2>練習三:請印出1到50間3的倍數及其總和</h2>
+    <script>
+     var total=0;
+     for(var i=3;i<=50;i=i+3)
+      {
+          document.write(i,"<br>");
+          total=total+i;
+      }
+      document.write("total:",total,"<br>")
+    </script>
+
+    <h2>break 1加到哪一個數會超過1000元</h2>
+    <script>
+        var total=0;
+        for(var i=1;i<=1000;i++){
+            total=total+i;
+            if(total>1000){
+                document.write("1+2+...+",i,"=",total,">1000<br>");
+                break;
+            }
+        }
+    </script>
+
+    <h2>continue</h2>
+    <script>
+        var total=0;
+        for(var i=1;i<=50;i++){
+            if(i%3 !=0){
+                continue;
+            }
+        }
+
+        document.write(i,"<br>")
+        total+=i;
+    </script>
+
+    <h2>while句型</h2>
+    <script>
+    var i=1
+    while (i<=3) {
+        document.write("I love javascript~<br>")
+        i++;
+    }
+    </script>
+
+<h2>練習一while:印出 1 2 3 ...8 9 10</h2>
+<script>
+var i = 1;
+while (i<=9) {
+document.write(i,"、");
+i++;
+    
+}
+
+document.write(i,"<br>")
+</script>
+
+<h2>練習二while 請問1加到10總和為多少?</h2>
+<script>
+var i=1, total=0;
+while (i<=10) {
+    total=total+i;
+    i++;
+    
+}
+document.write("total:",total,"<br>")
+
+</script>
+
+
+<h2>練習三:請印出1到50間3的倍數及其總和</h2>
+
+<script>
+var total=0;
+var i=3;
+while(i<=50){
+    document.write(i,"<br>");
+ 
+    total=total+i;
+    i=i+3;
+}
+
+document.write("total:",total,"<br>")
+
+</script>
+
+<h2>作業07</h2>
+
+<script>
+
+var total=0;
+for(var i=1;i<=20;i=i+1)
+      {
+          document.write(i,"<br>");
+          total=total+i;
+      }
+      document.write("total:",total,"<br>")
+
+
+
+      var total=0;
+for(var i=2;i<=20;i=i+2)
+      {
+          document.write(i,"<br>");
+          total=total+i;
+      }
+      document.write("total:",total,"<br>")
+
+
+      var total=0;
+for(var i=1;i<=20;i=i+2)
+      {
+          document.write(i,"<br>");
+          total=total+i;
+      }
+      document.write("total:",total,"<br>")
+</script>
+
+</body>
+</html>

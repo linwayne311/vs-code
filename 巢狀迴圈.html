@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h2>句型</h2>
+<script>
+for(var i=1;i<=9;i++){
+for(var j=1;j<=3;j++){
+    document.write(j,"");
+}
+document.write("<br>");
+
+
+}
+
+
+</script>
+
+<h2>以表格輸出</h2>
+<script>
+document.write( "<table border='1' cellspacing='0'>");
+for(var i=1;i<=9;i++){
+    document.write("<tr>");
+        for(var j=1;j<=9;j++){
+            document.write("<td>",j,"</td>");
+        }
+        document.write("</tr>");
+
+}
+document.write("</table>");
+</script>
+
+
+<h2>以表格輸出9x9</h2>
+<script>
+document.write( "<table border='1' cellspacing='0'>");
+for(var i=1;i<=9;i++){
+    document.write("<tr>");
+        for(var j=1;j<=9;j++){
+            document.write("<td>",i*j,"</td>");
+
+        }
+        document.write("</tr>")
+}
+document.write("</table>")
+</script>
+
+
+<h2>以表格輸出9x9-2</h2>
+<script>
+document.write( "<table border='1' cellspacing='0'>");
+for(var i=1;i<=9;i++){
+    document.write("<tr>");
+        for(var j=1;j<=9;j++){
+            document.write("<td>",i,"*",j,"=",i*j,"</td>");
+
+        }
+        document.write("</tr>")
+}
+document.write("</table>")
+</script>
+
+<h2>template</h2>
+<script>
+var name="Sara",money=700000000;
+document.write("姓名:",name,"我有存款:",money,"元<br>")
+
+
+</script>
+
+
+</body>
+</html>
